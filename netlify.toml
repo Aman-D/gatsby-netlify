@@ -1,6 +1,6 @@
 [build]
   command = "yarn run build"
-  functions = "public/functions"
+  functions = "lambda"
   publish = "public"
 
 [build.enviroment]
