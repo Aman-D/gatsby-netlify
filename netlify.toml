@@ -1,14 +1,11 @@
 [build]
   command = "yarn run build"
-  functions = "lambda"
+  functions = "build-funtions"
   publish = "public"
 
 [build.environment]
   NAME = "Build Aman"
-
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
-
+  
 [context.production.environment]
   NAME = "Aman Dhurwey"
 
