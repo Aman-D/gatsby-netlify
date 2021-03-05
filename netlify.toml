@@ -2,3 +2,9 @@
   command = "yarn run build"
   functions = "functions"
   publish = "public"
+
+[context.production.enviroment]
+  NAME = "Aman Dhurwey"
+
+[context.dev.environment]
+  NAME = "Dev Aman"
