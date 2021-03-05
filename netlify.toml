@@ -3,13 +3,13 @@
   functions = "lambda"
   publish = "public"
 
-[build.enviroment]
+[build.environment]
   NAME = "Build Aman"
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
 
-[context.production.enviroment]
+[context.production.environment]
   NAME = "Aman Dhurwey"
 
 [context.dev.environment]
