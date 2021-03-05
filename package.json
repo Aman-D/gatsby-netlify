@@ -29,7 +29,6 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "postinstall": "netlify-lambda install",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
