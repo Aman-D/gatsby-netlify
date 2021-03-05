@@ -30,7 +30,7 @@
   "license": "0BSD",
   "scripts": {
     "postinstall": "netlify-lambda install",
-    "build": "gatsby build",
+    "build": "netlify-lambda build functions && node -p 'process.env'",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
