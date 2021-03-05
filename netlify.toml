@@ -3,6 +3,12 @@
   functions = "functions"
   publish = "public"
 
+[build.enviroment]
+  NAME = "Build Aman"
+
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"
+
 [context.production.enviroment]
   NAME = "Aman Dhurwey"
 
