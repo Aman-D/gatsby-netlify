@@ -4,7 +4,7 @@
   publish = "public"
 
 [context.production.environment]
-  Name = "Production Aman"
+  NAME = "Production Aman"
 
 [context.dev.environment]
   NAME = "Dev Aman"
