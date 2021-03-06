@@ -3,6 +3,9 @@
   functions = "build-funtions"
   publish = "public"
 
+[context.production.environment]
+  Name = "Production Aman"
+
 [context.dev.environment]
   NAME = "Dev Aman"
 
